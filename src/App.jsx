@@ -1,6 +1,7 @@
 import { Navbar } from './components/Navbar';
 import { Buscador } from './components/Buscador';
-import { Pokemons } from './components/Pokemons';
+import Pokemons from './components/Pokemons';
+
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Buscador />
-      <Pokemons />
+      <Pokemons/>
     </>
 
   )
